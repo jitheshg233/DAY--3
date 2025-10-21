@@ -1,0 +1,34 @@
+table{
+    border: 0;
+    color: blue;
+}
+td{
+    padding: 5px;
+}
+button{
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+}
+button:hover{
+    cursor: pointer;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:  linear-gradient(to top,rgba(44, 43, 43, 0.075)50%,rgba(44, 43, 43, 0.075)50%),url(photo.jpg);
+    background-size:cover ;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.c{
+    border: 5px solid black;
+    border-radius: 20px;
+}
