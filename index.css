@@ -1,34 +1,26 @@
-table{
-    border: 0;
-    color: blue;
-}
-td{
-    padding: 5px;
-}
-button{
-    padding: 20px;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-    background-size: cover;
-}
-button:hover{
-    cursor: pointer;
-}
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image:  linear-gradient(to top,rgba(44, 43, 43, 0.075)50%,rgba(44, 43, 43, 0.075)50%),url(photo.jpg);
-    background-size:cover ;
-    background-position: fixed;
-    background-repeat: no-repeat;
-}
-.c{
-    border: 5px solid black;
-    border-radius: 20px;
-}
+body {
+            font-family: Italic;
+            background-color: lightblue;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqm8vpghqHsnbEiKSJYCVdM0-SwUw2net7wQ&s');
+        }
+        .c {
+            width: 250px;
+            margin: 100px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px gray;
+        }
+        button {
+            width: 50px;
+            height: 40px;
+            font-size: 18px;
+            margin: 2px;
+            border-radius: 10px;
+        }
+        input.g {
+            width: 210px;
+            height: 40px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
